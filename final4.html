@@ -338,7 +338,7 @@
                 outputDiv.innerHTML = '<p class="text-gray-400 text-center">Generating response...</p>';
 
                 setTimeout(() => {
-                    const dummyResponse = "This is a dummy AI response based on your input: '" + userPrompt + "'. This is an example to demonstrate the feature without a live API.";
+                    const dummyResponse = "For an AI enthusiast, the journey begins with establishing a strong foundation in Python programming, along with essential mathematical concepts like linear algebra, calculus, and statistics, which are the building blocks of AI algorithms. Once a solid understanding of these fundamentals is in place, the next step is to dive into machine learning, starting with core concepts and utilizing a library like Scikit-learn to build initial models. The most crucial part of this roadmap is applying knowledge through hands-on projects, starting with simple tasks like spam detection or a basic image classifier, and documenting them on platforms like GitHub to build a portfolio. As you progress, you can explore more advanced topics like deep learning with frameworks such as TensorFlow or PyTorch and stay current by reading research papers, following AI news, and engaging with online communities";
                     const formattedText = dummyResponse.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br>');
                     outputDiv.innerHTML = formattedText;
                     
@@ -433,7 +433,7 @@
                 searchOutput.innerHTML = '<p class="text-gray-400 text-center">Searching...</p>';
 
                 setTimeout(() => {
-                    const dummyResponse = "This is a dummy search result for your query: '" + query + "'. The Search Bot is a powerful tool to get quick answers on any topic.";
+                    const dummyResponse = "Based on your query: **'" + query + "'**, here is a brief answer: Python is a high-level, versatile programming language renowned for its simple syntax and extensive libraries, making it a top choice for web development, data science, and AI";
                     const formattedText = dummyResponse.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br>');
                     searchOutput.innerHTML = formattedText;
                     
